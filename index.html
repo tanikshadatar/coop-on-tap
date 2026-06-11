@@ -1,0 +1,118 @@
+<!-- Taniksha's Co-op, On Tap - full presentation website. Open full-screen (F11) and use arrow keys. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taniksha's Co-op - On Tap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<div class="deck">
+  <div class="track" id="track">
+
+    <!-- 1 COVER -->
+    <section class="slide light cover active">
+      <img class="logo" src="assets/logo.png" alt="Bevi">
+      <h1 class="display" data-anim style="--d:.05s">My Co-op,<br>On Tap</h1>
+      <div class="sub" data-anim style="--d:.2s">Taniksha Datar &nbsp;·&nbsp; Data Science Co-op, Data Team</div>
+      <div class="date" data-anim style="--d:.35s">Co-op wrap-up · June 2026</div>
+      <div class="mosaicimg" data-anim style="--d:.1s;background-image:url(assets/pattern-mosaic.png)"></div></section>
+
+    <!-- 2 MACHINE -->
+    <section class="slide kiosk-bg slide-machine">
+      <div class="mtitle" data-anim style="--d:.05s">
+        <h2 class="display">What I built</h2>
+        <p>Every flavor is a project. Pick one and hit Pour.</p>
+      </div>
+      <div class="machine" data-anim style="--d:.15s">
+        <div class="top">
+          <div class="gear">⚙</div>
+          <div class="styles">
+            <div class="style"><span class="ic">🫧</span><small>Sparkling</small></div>
+            <div class="style"><span class="ic">💧</span><small>Light Sparkling</small></div>
+            <div class="style on"><span class="ic">❄️</span><small>Cold</small></div>
+            <div class="style"><span class="ic">🌡️</span><small>Ambient</small></div>
+            <div class="style"><span class="ic">🔥</span><small>Hot</small></div>
+          </div>
+          <div class="qr"><span class="box"></span>My projects</div>
+        </div>
+        <div class="grid" id="grid"></div>
+        <div class="bar">
+          <div class="nutri"><div class="lbl">Est. per project:</div>
+            <div class="r"><div><b>∞</b><em>learnings</em></div><div><b>0</b><em>bugs shipped</em></div></div></div>
+          <button class="pour" id="pour" disabled>Pour</button>
+          <div class="saved"><b>4</b><span>projects shipped</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 BIG WIN -->
+    <section class="slide dark win">
+      <div class="bubbles bubbles-win" id="bubblesWin" aria-hidden="true"></div>
+      <div class="win-wrap">
+        <div class="win-left">
+          <div class="eyebrow" data-anim style="--d:.05s">The big win</div>
+          <h2 class="display" data-anim style="--d:.12s">Neeru learned to read tickets</h2>
+          <div class="pipe" data-anim style="--d:.26s">
+            <div class="pstep"><b>Zendesk tickets + machine alerts</b><span>every ticket and alert for a machine</span></div>
+            <div class="parrow">↓</div>
+            <div class="pstep"><b>Ticket summaries</b><span>Cortex summarizes each ticket first</span></div>
+            <div class="parrow">↓</div>
+            <div class="pstep"><b>Machine history summary</b><span>built on top of the ticket summaries</span></div>
+          </div>
+          <p class="pipe-note" data-anim style="--d:.44s">A two-level pipeline on Snowflake Cortex. The summary on the right pulls together active tickets, alerts, escalation history, chronic patterns, and an AI repair synthesis.</p>
+        </div>
+        <figure class="win-shot" data-anim style="--d:.6s">
+          <img src="assets/neeru-slack.png" alt="Neeru returning a machine-history summary in Slack">
+          <figcaption>Ask Neeru a machine serial in Slack — full history back in seconds.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 5 LEARNINGS -->
+    <section class="slide light learn">
+      <div class="eyebrow" data-anim style="--d:.05s">What I'm taking with me</div>
+      <h2 class="display" data-anim style="--d:.12s">A few things that stuck</h2>
+      <div class="ll">
+        <div class="li" data-anim style="--d:.22s"><span class="e">🙋</span><p>No question is silly. Ask about anything and everything — that's how you actually learn.</p></div>
+        <div class="li" data-anim style="--d:.32s"><span class="e">🔍</span><p>Check the data before you trust it. I learned this the slow way — bad inputs cost more than the compute.</p></div>
+        <div class="li" data-anim style="--d:.42s"><span class="e">💬</span><p>Feedback is important, and necessary. The more specific it is, the more useful it is.</p></div>
+        <div class="li" data-anim style="--d:.52s"><span class="e">🐶</span><p>The office is just better with the other co-ops and the dogs around.</p></div>
+      </div>
+    </section>
+
+    <!-- 6 THANKS -->
+    <section class="slide light thanks"><img class="logo" src="assets/logo.png" alt="Bevi">
+      <div class="bubbles" id="bubbles" aria-hidden="true"></div>
+      <div class="thanks-collage">
+        <div class="thanks-center" data-anim style="--d:.05s">
+          <div class="eyebrow">People (and pets) to thank</div>
+          <h2 class="display">Thank you</h2>
+          <p class="thanks-note">Couldn't have asked for a better team to spend my co-op with.</p>
+        </div>
+        <div class="polaroid-slot" data-anim style="--d:.14s"><figure class="polaroid" style="--rot:-6.5deg"><img src="assets/team-group.jpg" alt="First day of co-ops"><figcaption>first day of co-ops</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.2s"><figure class="polaroid" style="--rot:2.5deg"><img src="assets/carbon-kaizen.jpg" alt="Carbon Kaizen"><figcaption>carbon kaizen</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.26s"><figure class="polaroid" style="--rot:5.5deg"><img src="assets/coops-kaizen.jpg" alt="Co-ops at Carbon Kaizen"><figcaption>coops at carbon kaizen</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.32s"><figure class="polaroid" style="--rot:-3.5deg"><img src="assets/dogs-office.jpg" alt="The office dogs"><figcaption>office pups</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.38s"><figure class="polaroid" style="--rot:4.5deg"><img src="assets/dogs-cuddle.jpg" alt="Office dogs napping"><figcaption>nap time 🐾</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.44s"><figure class="polaroid" style="--rot:-2deg"><img src="assets/presenting.jpg" alt="Presenting"><figcaption>presenting</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.5s"><figure class="polaroid" style="--rot:1.5deg;--ph:33vh"><img src="assets/data-team.jpg" alt="The Data Team"><figcaption>the data team</figcaption></figure></div>
+        <div class="polaroid-slot" data-anim style="--d:.56s"><figure class="polaroid" style="--rot:6deg"><img src="assets/red-sox.jpg" alt="Red Sox game"><figcaption>red sox game</figcaption></figure></div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<!-- overlay -->
+<div class="overlay" id="overlay"><div class="drinkcard" id="drinkcard"><div class="fill"></div><div class="dcontent" id="dcontent"></div></div></div>
+
+<!-- chrome -->
+<div class="hint">← → arrow keys to move &nbsp;·&nbsp; F11 for full screen</div>
+<div class="chrome">
+  <button class="nav" id="prev">←</button>
+  <div class="dots" id="dots"></div>
+  <button class="nav" id="next">→</button>
+</div>
+<div class="count" id="count"></div>
+
+<script src="app.js"></script>

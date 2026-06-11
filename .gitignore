@@ -1,0 +1,24 @@
+# --- internal / local-only (do NOT publish) ---
+CLAUDE.md
+.claude/
+.claudeignore
+
+# old monolithic build, superseded by index.html + styles.css + app.js
+coop_site.html
+
+# original full-res photos (replaced by compressed .jpg versions)
+assets/carbon-kaizen.png
+assets/coops-kaizen.png
+assets/data-team.png
+assets/dogs-cuddle.png
+assets/dogs-office.png
+assets/presenting.png
+assets/red-sox.png
+assets/team-group.png
+
+# misc
+*.pptx
+*.pdf
+*.log
+.DS_Store
+Thumbs.db
