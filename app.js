@@ -31,7 +31,7 @@
     {fc:"#FA5D05",coin:"assets/flavor-mango.png",flavor:"Peach Mango",ribbon:"Day-to-day",rcls:"r-orange",
      title:"Other data team work",
      impact:"This is where I built the foundational data-science skills the rest of my work stands on, while keeping other teams unblocked with the data they needed.",
-     did:"The day-to-day requests that don't fit on a coin: pulling data out of Snowflake (like a Quench data pull and a machine list for Rob K.) and building new tables off the source tables in dbt so other teams can use them.",
+     did:"The day-to-day requests that don't fit on a coin: pulling data out of Snowflake (like a Quench data pull and a machine list for finance.) and building new tables off the source tables in dbt so other teams can use them.",
      tools:[{ic:"snowflake",name:"Snowflake"},{ic:"dbt",name:"dbt"}]}
   ];
   const grid=document.getElementById("grid");
