@@ -16,7 +16,7 @@
     {fc:"#4B7A00",coin:"assets/flavor-lime.png",flavor:"Key Lime",ribbon:"The Big Win",rcls:"r-blue",
      title:"Machine History Summarizer",
      impact:"Tech support can pull a machine's full service history in seconds, instead of digging through tickets and alerts by hand.",
-     did:"Built a summarizer that gathers every Zendesk ticket and Well alert for a machine and turns it into one concise history, right inside Slack. It runs on Snowflake Cortex, summarizing each ticket first, then combining those into the machine's full story.",
+     did:"Built a summarizer that gathers every Zendesk ticket and Well alert for a machine and turns it into one concise history, right inside Slack.",
      tools:[{ic:"snowflake",name:"Snowflake Cortex"},{ic:"zendesk",name:"Zendesk"},{ic:"slack",name:"Slack"}]},
     {fc:"#246EFF",coin:"assets/flavor-pom-blueberry.png",flavor:"Pomegranate Blueberry",ribbon:"Under the Hood",rcls:"r-blue",
      title:"Call Summarizer Upgrade",
