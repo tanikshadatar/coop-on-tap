@@ -26,7 +26,7 @@
     {fc:"#C8102E",coin:"assets/flavor-watermelon.png",flavor:"Watermelon",ribbon:"New: Growth",rcls:"r-red",
      title:"Expansion Targeting MVP",
      impact:"Sales can see exactly which of a client's sites don't have a Bevi yet, turning guesswork into a clear, confidence-ranked list of expansion targets.",
-     did:"I match the location of every Bevi unit against all of our client and prospect locations, then flag the sites that don't have a Bevi yet and give each match a confidence score, so the strongest expansion points rise to the top.",
+     did:"I matched the location of every Bevi unit against all of our client and prospect locations, then flag the sites that don't have a Bevi yet and give each match a confidence score, so the strongest expansion points rise to the top.",
      tools:[{ic:"snowflake",name:"Snowflake"}]},
     {fc:"#FA5D05",coin:"assets/flavor-mango.png",flavor:"Peach Mango",ribbon:"Day-to-day",rcls:"r-orange",
      title:"Other data team work",
